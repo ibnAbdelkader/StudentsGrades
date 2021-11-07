@@ -1,0 +1,135 @@
+################################################
+####### Students Information System v.2 ########
+################################################
+- Number of universities: 2
+ 
+- Command: add_universities
+             + KAU
+ 
+- Command: add_universities
+             + KAUST
+ 
+- Command: add_courses
+             + CPCS202 - KAU
+ 
+- Command: add_courses
+             + CPCS221 - KAU
+ 
+- Command: add_courses
+             + CPCS304 - KAU
+ 
+- Command: add_courses
+             + CS601 - KAUST
+ 
+- Command: add_courses
+             + CS602 - KAUST
+ 
+- Command: add_courses
+             + CS524 - KAUST
+ 
+- Command: add_students
+             + Hassan_Ahmad - CPCS202 - KAU
+             + Faisal_Hamza - CPCS202 - KAU
+             + Nada_Jamal - CPCS202 - KAU
+             + Maryam_Ali - CPCS202 - KAU
+ 
+- Command: add_students
+             + Nawal_Saad - CPCS221 - KAU
+             + Reema_Osama - CPCS221 - KAU
+ 
+- Command: add_students
+             + Saleh_Mohammad - CPCS304 - KAU
+             + Jawad_Ali - CPCS304 - KAU
+             + Saif_Abdulraheem - CPCS304 - KAU
+ 
+- Command: add_students
+             + Momtaz_Saad - CS601 - KAU
+             + Nasser_Faisal - CS601 - KAU
+ 
+- Command: add_students
+             + Fatima_Mohamed - CS602 - KAU
+             + Arwa_Fares - CS602 - KAU
+             + Nora_Nasser - CS602 - KAU
+ 
+- Command: add_students
+             + Ahmad_Mohammed - CS524 - KAU
+             + Ola_Mohammed - CS524 - KAU
+ 
+- Command: print_result
+            -> University: KAU
+            -> Course: CPCS202
+            -> Number of students: 4
+--------------------------------------------------------------------
+ID             First Name_Last Name      GPA            Grade
+--------------------------------------------------------------------
+7908489        Hassan_Ahmad              4.5            97.0
+7011231        Faisal_Hamza              3.2            73.0
+7409084        Nada_Jamal              4.23            90.0
+7500101        Maryam_Ali              4.9            87.0
+--------------------------------------------------------------------
+- Command: print_result
+            -> University: KAU
+            -> Course: CPCS221
+            -> Number of students: 2
+--------------------------------------------------------------------
+ID             First Name_Last Name      GPA            Grade
+--------------------------------------------------------------------
+1633000        Nawal_Saad              3.75            72.0
+1054621        Reema_Osama              3.25            71.0
+--------------------------------------------------------------------
+- Command: print_result
+            -> University: KAU
+            -> Course: CPCS304
+            -> Number of students: 3
+--------------------------------------------------------------------
+ID             First Name_Last Name      GPA            Grade
+--------------------------------------------------------------------
+1595175        Saleh_Mohammad              2.75            61.0
+1611223        Jawad_Ali              4.66            92.0
+1774577        Saif_Abdulraheem              4.49            96.0
+--------------------------------------------------------------------
+- Command: print_result
+            -> University: KAUST
+            -> Course: CS601
+            -> Number of students: 2
+--------------------------------------------------------------------
+ID             First Name_Last Name      GPA            Grade
+--------------------------------------------------------------------
+1866666        Momtaz_Saad              3.33            81.0
+1625843        Nasser_Faisal              3.52            74.0
+--------------------------------------------------------------------
+- Command: print_result
+            -> University: KAUST
+            -> Course: CS602
+            -> Number of students: 3
+--------------------------------------------------------------------
+ID             First Name_Last Name      GPA            Grade
+--------------------------------------------------------------------
+1674587        Fatima_Mohamed              2.9            61.0
+1588888        Arwa_Fares              5.0            100.0
+1598789        Nora_Nasser              4.18            96.0
+--------------------------------------------------------------------
+- Command: print_result
+            -> University: KAUST
+            -> Course: CS524
+            -> Number of students: 2
+--------------------------------------------------------------------
+ID             First Name_Last Name      GPA            Grade
+--------------------------------------------------------------------
+1451212        Ahmad_Mohammed              2.1            61.0
+1122345        Ola_Mohammed              3.89            76.0
+--------------------------------------------------------------------
+- Command: find_average_grade
+            -> University: KAU
+            -> Course: CPCS202
+            -> Average Grades: 86.75  
+- Command: find_max_grade
+            -> University: KAU
+            -> Course: CPCS202
+            -> Average Grades: 97.00  
+- Command: find_min_grade
+            -> University: KAU
+            -> Course: CPCS202
+            -> Average Grades: 73.00  
+- Command: find_average_gpa
+The average GPA for all students in all universities is 3.79  
